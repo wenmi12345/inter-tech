@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>INTER-TECH</title>
+    <script>
+      /** @type {import('tailwindcss').Config} */
+      module.exports = {
+        content: ["./src/*.{html,js}"],
+        theme: {
+          extend: {
+            colors: {
+              customBlue: "#a2b2c2",
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
+  </head>
+  <body class="h-[100vh] bg-gradient-to-b from-black to-blue-500">
+    <nav class="flex justify-between items-center my-[50px]">
+      <div class="flex items-center">
+        <img
+          src="../src/img/less-icon-8-removebg-preview.png"
+          alt="logo"
+          width="50px"
+          height="50px"
+        />
+        <p class="text-blue-300 font-bold text-3xl">INTER-TECH</p>
+      </div>
+
+      <div>
+        <h1 class="text-customBlue text-6xl">Test</h1>
+        <ul class="flex">
+          <li>
+            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >Service</a
+            >
+          </li>
+          <li>
+            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="my-[100px] ml-[100px]">
+      <p class="font-bold text-3xl my-[10px]">
+        INTER-TECH ProvideSolution To Your<br />
+        Business Needs Whatever They Maybe.
+      </p>
+
+      <p class="my-[10px] text-sm">
+        You have a limited time to get your potential customer's attention, so
+        make it<br />count
+      </p>
+
+      <form class="w-[500px]">
+        <div class="w-[600px] my-[10px]">
+          <label for="fname"> </label>
+          <input
+            class="w-[400px]"
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="....Enter your name"
+          />
+        </div>
+
+        <div class="my-[10px]">
+          <label for="fname"> </label>
+          <input
+            class="w-[400px]"
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="....Enter your name"
+          />
+        </div>
+
+        <div>
+          <button
+            class="bg-slate-500 my-[10px] w-[400px] py-1 text-xs text-center text-white"
+          >
+            SUBCRIBE
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <article class="bg-slate-400 flex justify-around items-center py-[80px]">
+      <div class="w-[33.3%]">
+        <p class="text-xl font-bold my-[30px]">
+          INTER-TECH is all about experances <br />in the world of business and
+          tech
+        </p>
+
+        <img
+          class="my-[30px]"
+          src="../src/img/tech-bus.jpg"
+          alt="tech&busness"
+          width=" 300px"
+          height="200px "
+        />
+      </div>
+
+      <div class="w-[33.3%]">
+        <h1 class="text-xl font-bold my-[30px]">What is a tech business?</h1>
+        <p>
+          Tech businesses provide products and services that have applications
+          across multiple industries — but at their core, they pertain to the
+          research, development and distribution of technology-based goods. This
+          includes businesses that manufacture electronics (like Apple), create
+          software (like Salesforce), provide services relating to information
+          technology (like Google) and more.
+        </p>
+      </div>
+
+      <div class="w-[33.3%]">
+        <h1 class="text-xl font-bold my-[30px]">Extended reality</h1>
+        <p>
+          Extended reality technology encompasses both augmented reality, or AR,
+          and virtual reality, or VR, technologies. Kenny Trinh, editor of tech
+          review publication Net Books News, sees extended reality technology
+          proliferating in the coming years. "In 2020, we’ll see more and more
+          businesses applying extended reality to their brands to stand out from
+          the competition and deliver a better customer experience,” says Trinh.
+          “In fact, some businesses have been doing that already.”
+        </p>
+      </div>
+    </article>
+
+    <section class="bg-white py-[10%] flex justify-around items-center">
+      <div class="w-[50%]">
+        <p class="text-gray-400 text-lg my-[10px] leading-10">
+          If you’re looking to start a business with high earning potential,
+          you’ve probably looked into some tech business ideas. And why wouldn’t
+          you? In 2019, the estimated economic output of the technology industry
+          was $1.8 trillion, comprising over 10% of the national economy,
+          according to CompTIA. What’s more, the average successful startup exit
+          (via either acquisition or IPO) has sat at $242.9 million since 2007.
+          However, for every successful startup exit, there are hundreds if not
+          thousands of startups that have failed. So if you’re an entrepreneur
+          hoping to hit it big in the technology sector, you need to start with
+          a strong tech business idea.
+        </p>
+        <img src="../src/img/tech-bus.jpg" width="300px" height="200px" />
+      </div>
+
+      <div
+        class="w-[35%] h-[500px] bg-gradient-to-b from-black to-blue-500 rounded-md flex justify-center items-center flex-col"
+      >
+        <button
+          class="border-2 rounded-[10px] text-sm px-[10px] py-[5px] text-white my-[10px]"
+        >
+          Sign-Up
+        </button>
+
+        <button
+          class="border-2 rounded-[10px] text-sm px-[10px] py-[5px] text-white my-[10px]"
+        >
+          Sign-Up
+        </button>
+
+        <p class="text-gray-300 my-[10px]">Set Up An Account...</p>
+      </div>
+    </section>
+  </body>
+</html>
