@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>INTER-TECH</title>
+    <script>
+      /** @type {import('tailwindcss').Config} */
+      module.exports = {
+        content: ["./src/*.{html,js}"],
+        theme: {
+          extend: {
+            colors: {
+              customBlue: "#a2b2c2",
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
+  </head>
+  <body class="h-[100vh] bg-gray-500">
+    <nav class="flex justify-between items-center my-[50px]">
+      <div class="flex items-center">
+        <img
+          src="../src/img/less-icon-8-removebg-preview.png"
+          alt="logo"
+          width="50px"
+          height="50px"
+        />
+        <p class="text-blue-300 font-bold text-3xl">INTER-TECH</p>
+      </div>
+
+      <div>
+        <ul class="flex">
+          <li>
+            <a href="./index.html" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="./aboutus.html" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a href="../src/service.html" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >Service</a
+            >
+          </li>
+          <li>
+            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="text-white flex justify-around items-center h-[80vh] ">
+      <div class="left">
+       <p  class="my-[20px]"><small>ABOUT US...</small> </p>
+
+       <p class="text-4xl my-[20px]"> Helping businesses succeed through <br>the power and influence of TECH</p>
+
+       <p  class="my-[20px]"> tech is the future of business in the digital world<br>INTER-TECH uses web-dev, web-design, ui/ux...etc<br> to connect and communicate to everwhere and anywhere</br>we help organization ogf all sizes to reach their goals</p>
+      </div>
+
+      <div class="right  relative">
+        <div>
+             <p class="w-[200px] h-[200px] bg-slate-800  rounded-full transition-all duration-1000 delay-150  ease-in-out hover:scale-125   hover:bg-zinc-700"></p>
+        </div> 
+        
+        <div>
+           <img src="../src/img/communicate-tech.jpg " width="200" height="200px" class="rounded-lg absolute  bottom-[2px] left-[150px]    transition-all duration-1000   ease-in-out hover:scale-125 "> 
+        </div>
+        
+        <div>
+            <img src="../src/img/Tech Changes.webp"  width="200" height="200px" class="rounded-lg  absolute top-[2px] right-[150px] transition-all duration-1000  ease-in-out hover:scale-125 "> 
+        </div>
+      </div>
+    </main>
+
+
+    <section class="bg-gray-200 py-[10%] flex justify-around items-center">
+        <div class="w-[50%]">
+          <p class="text-gray-400 text-lg my-[10px] leading-10">
+            If you’re looking to start a business with high earning potential,
+            you’ve probably looked into some tech business ideas. And why wouldn’t
+            you? In 2019, the estimated economic output of the technology industry
+            was $1.8 trillion, comprising over 10% of the national economy,
+            according to CompTIA. What’s more, the average successful startup exit
+            (via either acquisition or IPO) has sat at $242.9 million since 2007.
+            However, for every successful startup exit, there are hundreds if not
+            thousands of startups that have failed. So if you’re an entrepreneur
+            hoping to hit it big in the technology sector, you need to start with
+            a strong tech business idea.
+          </p>
+          <img   class="rounded-lg" src="../src/img/tech-bus.jpg" width="300px" height="200px" />
+        </div>
+  
+        <div
+          class="w-[35%] h-[500px] bg-gradient-to-b from-black to-blue-500 rounded-md flex justify-center items-center flex-col"
+        >
+          <button
+            class="border-2 rounded-[10px] text-sm px-[10px] py-[5px] text-white my-[10px] hover:text-blue-300 hover:border-gray-800"
+          >
+            Log in
+          </button>
+  
+          <button
+            class="border-2 rounded-[10px] text-sm px-[10px] py-[5px] text-white my-[10px] hover:text-blue-300 hover:border-gray-800"
+          >
+            Sign-Up
+          </button>
+  
+          <p class="text-gray-300 my-[10px] hover:text-blue-300 hover:underline">
+            Set Up An Account...
+          </p>
+        </div>
+      </section>
+
+
+       <section class="bg-gray-900  h-[40vh] text-white flex  items-center justify-around">
+      <div>
+        <p class="text-4xl my-[15px]" >Get in touch with us
+        <br>for your service</p>
+        <div class="flex">
+          <box-icon
+            name="facebook-circle"
+            type="logo"
+            color="#ffffff"
+            class="hover:scale-100"
+          ></box-icon>
+          <br /><box-icon type="logo" name="twitter" color="#ffffff"></box-icon
+          ><br />
+          <box-icon name="instagram" type="logo" color="#ffffff"></box-icon>
+          <br /><br /><br />
+          <box-icon
+            name="linkedin-square"
+            type="logo"
+            color="#ffffff"
+          ></box-icon>
+        </div>
+      </div>
+
+      <div class="section9-right">
+        <p class="text-sm text-gray-400">Help line Noumber</p>
+        <p>1800 265 24 52</p>
+        <p class="text-sm text-gray-400">Address</p>
+        <p>NH 234 Public Square San Francisco 65368</p>
+        <p class="text-sm text-gray-400">We are open</p>
+        <p>Monday to Friday 9:00 AM to 10:00 AM</p>
+      </div>
+    </section>
+   
+    
+    <footer class="bg-black  text-white   ">
+      <div class="flex justify-between items-center">
+        <div class="text-blue-300  text-2xl"> < INTER-TECH</div>
+
+       
+
+        <div class="text-gray-400 text-sm">@ Copyright INTER-TECH 2023</div>
+      </div>
+    </footer>
+  </body>
+</html>

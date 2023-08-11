@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>INTER-TECH</title>
     <script>
@@ -21,8 +22,11 @@
       };
     </script>
   </head>
-  <body class="h-[100vh] bg-gradient-to-b from-black to-blue-500">
-    <nav class="flex justify-between items-center my-[50px]">
+  <body class="h-[100vh]">
+    <div class="bg-no-repeat bg-fixed bg-center bg-cover"
+    style="background-image:url(./img/service.bg.jpg);>
+
+    <nav class="flex justify-between items-center">
       <div class="flex items-center">
         <img
           src="../src/img/less-icon-8-removebg-preview.png"
@@ -31,29 +35,35 @@
           height="50px"
         />
         <p class="text-blue-300 font-bold text-3xl">INTER-TECH</p>
-        
       </div>
 
       <div>
-        
         <ul class="flex">
           <li>
-            <a href="./index.html" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+            <a
+              href="./index.html"
+              class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >Home</a
             >
           </li>
           <li>
-            <a href="./aboutus.html" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+            <a
+              href="./aboutus.html"
+              class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >About Us</a
             >
           </li>
           <li>
-            <a href="./service.html" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+            <a
+              href="./service.html"
+              class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >Service</a
             >
           </li>
           <li>
-            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
+            <a
+              href="./features.html"
+              class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >Features</a
             >
           </li>
@@ -66,97 +76,48 @@
       </div>
     </nav>
 
-    <main class="my-[100px] ml-[100px]">
-      <p class="font-bold text-3xl my-[10px]">
-        INTER-TECH ProvideSolution To Your<br />
-        Business Needs Whatever They Maybe.
-      </p>
+    <main class="flex justify-evenly items-center p-[50px]">
+      <div class="w-[40%]"></div>
 
-      <p class="my-[10px] text-sm">
-        You have a limited time to get your potential customer's attention, so
-        make it<br />count
-      </p>
-
-      <form class="w-[500px]">
-        <div class="w-[600px] my-[10px]">
-          <label for="fname"> </label>
-          <input
-            class="w-[400px]"
-            type="text"
-            id="fname"
-            name="fname"
-            placeholder="...Enter your username"
-            required
-          />
-        </div>
-
-        <div class="my-[10px]">
-          <label for="fname"> </label>
-          <input
-            class="w-[400px]"
-            type="email"
-            id="fname"
-            name="fname"
-            placeholder="...Enter your email"
-            required
-          />
-        </div>
+      <div
+        class="w-[35%] bg-slate-200 rounded-xl p-[20px] transition-all duration-1000 ease-in-out hover:border-2 hover:border-blue-300 border-dashed hover:scale-125"
+      >
+        <p class="text-4xl my-[30px]">OUR SERVICES</p>
 
         <div>
-          <button
-            class="bg-slate-500 my-[10px] w-[400px] py-1 text-xs text-center text-white "  title= "&#128077"
-          >
-            SUBCRIBE
-          </button>
+          <ul class="text-gray-400 my-[30px] list-disc list-inside">
+            <li class="my-[10px]">
+              Improve your busness ideas, or give your organization a better one
+            </li>
+            <li class="my-[15px]">
+              connect and communicate with client all over the world
+            </li>
 
-         
+            <li class="my-[15px]">
+              Take Advantage of Social Media and online marketing for Your
+              Business
+            </li>
+
+            <li class="my-[15px]">
+              Create a Professional Website for Your Business
+            </li>
+
+            <li class="my-[15px]">
+              Grow Your Business with Tech and to Save Money
+            </li>
+          </ul>
+
+          <img
+            class="rounded-lg my-[30px]"
+            src="./img/tech-community.jpg"
+            width="200px"
+            height="200px"
+          />
         </div>
-      </form>
+      </div>
     </main>
 
-    <article class="bg-slate-400 flex justify-around items-center py-[80px]">
-      <div class="w-[33.3%]">
-        <p class="text-xl font-bold my-[30px]">
-          INTER-TECH is all about experances <br />in the world of business and
-          tech
-        </p>
-
-        <img
-          class="my-[30px]"
-          src="../src/img/tech-bus.jpg"
-          alt="tech&busness"
-          width=" 300px"
-          height="200px "
-        />
-      </div>
-
-      <div class="w-[33.3%]">
-        <h1 class="text-xl font-bold my-[30px]">What is a tech business?</h1>
-        <p>
-          Tech businesses provide products and services that have applications
-          across multiple industries — but at their core, they pertain to the
-          research, development and distribution of technology-based goods. This
-          includes businesses that manufacture electronics (like Apple), create
-          software (like Salesforce), provide services relating to information
-          technology (like Google) and more.
-        </p>
-      </div>
-
-      <div class="w-[33.3%]">
-        <h1 class="text-xl font-bold my-[30px]">Extended reality</h1>
-        <p>
-          Extended reality technology encompasses both augmented reality, or AR,
-          and virtual reality, or VR, technologies. Kenny Trinh, editor of tech
-          review publication Net Books News, sees extended reality technology
-          proliferating in the coming years. "In 2020, we’ll see more and more
-          businesses applying extended reality to their brands to stand out from
-          the competition and deliver a better customer experience,” says Trinh.
-          “In fact, some businesses have been doing that already.”
-        </p>
-      </div>
-    </article>
-
-    <section class="bg-white py-[10%] flex justify-around items-center">
+    <section class="bg-gray-200 py-[10%] flex justify-around items-center">
       <div class="w-[50%]">
         <p class="text-gray-400 text-lg my-[10px] leading-10">
           If you’re looking to start a business with high earning potential,
@@ -170,7 +131,12 @@
           hoping to hit it big in the technology sector, you need to start with
           a strong tech business idea.
         </p>
-        <img  class="rounded-lg" src="../src/img/tech-bus.jpg" width="300px" height="200px" />
+        <img
+          class="rounded-lg"
+          src="../src/img/tech-bus.jpg"
+          width="300px"
+          height="200px"
+        />
       </div>
 
       <div
@@ -194,12 +160,13 @@
       </div>
     </section>
 
-
-
-    <section class="bg-gray-900  h-[40vh] text-white flex  items-center justify-around">
+    <section
+      class="bg-gray-900 h-[40vh] text-white flex items-center justify-around"
+    >
       <div>
-        <p class="text-4xl my-[15px]" >Get in touch with us
-        <br>for your service</p>
+        <p class="text-4xl my-[15px]">
+          Get in touch with us <br />for your service
+        </p>
         <div class="flex">
           <box-icon
             name="facebook-circle"
@@ -228,13 +195,10 @@
         <p>Monday to Friday 9:00 AM to 10:00 AM</p>
       </div>
     </section>
-   
-    
-    <footer class="bg-black  text-white   ">
-      <div class="flex justify-between items-center">
-        <div class="text-blue-300  text-2xl"> < INTER-TECH</div>
 
-       
+    <footer class="bg-black text-white">
+      <div class="flex justify-between items-center">
+        <div class="text-blue-300 text-2xl">< INTER-TECH</div>
 
         <div class="text-gray-400 text-sm">@ Copyright INTER-TECH 2023</div>
       </div>

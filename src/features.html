@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>INTER-TECH</title>
+    <script>
+      /** @type {import('tailwindcss').Config} */
+      module.exports = {
+        content: ["./src/*.{html,js}"],
+        theme: {
+          extend: {
+            colors: {
+              customBlue: "#a2b2c2",
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
+  </head>
+  <body>
+    <nav class="flex justify-between items-center my-[50px]">
+      <div class="flex items-center">
+        <img
+          src="../src/img/less-icon-8-removebg-preview.png"
+          alt="logo"
+          width="50px"
+          height="50px"
+        />
+        <p class="text-blue-300 font-bold text-3xl">INTER-TECH</p>
+      </div>
+
+      <div>
+        <ul class="flex">
+          <li>
+            <a
+              href="./index.html"
+              class="mx-[20px] text-gray-400 hover:text-blue-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="./aboutus.html"
+              class="mx-[20px] text-gray-400 hover:text-blue-300"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a
+              href="../src/service.html"
+              class="mx-[20px] text-gray-400 hover:text-blue-300"
+              >Service</a
+            >
+          </li>
+          <li>
+            <a
+              href="../src/features.html"
+              class="mx-[20px] text-gray-400 hover:text-blue-300"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a href="#" class="mx-[20px] hover:text-blue-300 text-gray-400"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main
+      class="bg-no-repeat bg-fixed bg-center"
+      style="background-image: url(./img/communicate-tech-removebg-preview.png)"
+    >
+      <p class="text-4xl text-center my-[10px">MEET OUT TEAM</p>
+      <div class="flex justify-around">
+        <div>
+          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
+            <img
+              src="./img/maneger-inter-tech.jpg"
+              width="200px"
+              height="200px"
+            />
+            <div class="w-[200] h-[30px] text-center">
+              <p>
+                Executive <br />
+                Mr OKON ITEBI
+              </p>
+            </div>
+          </div>
+
+          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
+            <img src="./img/cfo-inter-tech.jpg" width="200px" height="200px" />
+            <div class="w-[200] h-[30px] text-center">
+              <p>
+                Manager <br />
+                Mr LARMAR JR
+              </p>
+            </div>
+          </div>
+
+          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
+            <img src="./img/CMO.jpg" width="200px" height="200px" />
+            <div class="w-[200] h-[30px] text-center">
+              <p>
+                Chief marketing officer <br />
+                Mr LARRY LARRY
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
+            <img src="./img/me.jpg" width="200px" height="200px" />
+            <div class="w-[200] h-[30px] text-center">
+              <p>
+                Chief technology officer <br />
+                Miss GRACE
+              </p>
+            </div>
+          </div>
+
+          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
+            <img src="./img/ceo-inter-tech.jpg" width="200px" height="200px" />
+            <div class="w-[200] h-[30px] text-center">
+              <p>
+                CEO <br />
+                Mrs IZZY ELLA
+              </p>
+            </div>
+          </div>
+
+          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
+            <img src="./img/istockphoto-.jpg" width="200px" height="200px" />
+            <div class="w-[200] h-[30px] text-center">
+              <p>
+                Finance manager <br />
+                Mrs BASSY SOLOMON
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="bg-white py-[10%] flex justify-around items-center">
+      <div class="w-[50%]">
+        <img
+          title="HELLO WORLD! my name OKON, how can i help you"
+          class="rounded-lg"
+          src="../src/img/gif.gif"
+          width="500px"
+          height="450px"
+        />
+      </div>
+
+      <div
+        class="w-[35%] h-[500px] bg-gradient-to-b from-black to-blue-500 rounded-md flex justify-center items-center flex-col"
+      >
+        <button
+          class="border-2 rounded-[10px] text-sm px-[10px] py-[5px] text-white my-[10px] hover:text-blue-300 hover:border-gray-800"
+        >
+          Log in
+        </button>
+
+        <button
+          class="border-2 rounded-[10px] text-sm px-[10px] py-[5px] text-white my-[10px] hover:text-blue-300 hover:border-gray-800"
+        >
+          Sign-Up
+        </button>
+
+        <p class="text-gray-300 my-[10px] hover:text-blue-300 hover:underline">
+          Set Up An Account...
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="bg-gray-900 h-[40vh] text-white flex items-center justify-around"
+    >
+      <div>
+        <p class="text-4xl my-[15px]">
+          Get in touch with us <br />for your service
+        </p>
+        <div class="flex">
+          <box-icon
+            name="facebook-circle"
+            type="logo"
+            color="#ffffff"
+            class="hover:scale-100"
+          ></box-icon>
+          <br /><box-icon type="logo" name="twitter" color="#ffffff"></box-icon
+          ><br />
+          <box-icon name="instagram" type="logo" color="#ffffff"></box-icon>
+          <br /><br /><br />
+          <box-icon
+            name="linkedin-square"
+            type="logo"
+            color="#ffffff"
+          ></box-icon>
+        </div>
+      </div>
+
+      <div class="section9-right">
+        <p class="text-sm text-gray-400">Help line Noumber</p>
+        <p>1800 265 24 52</p>
+        <p class="text-sm text-gray-400">Address</p>
+        <p>NH 234 Public Square San Francisco 65368</p>
+        <p class="text-sm text-gray-400">We are open</p>
+        <p>Monday to Friday 9:00 AM to 10:00 AM</p>
+      </div>
+    </section>
+
+    <footer class="bg-black text-white">
+      <div class="flex justify-between items-center">
+        <div class="text-blue-300 text-2xl">< INTER-TECH</div>
+
+        <div class="text-gray-400 text-sm">@ Copyright INTER-TECH 2023</div>
+      </div>
+    </footer>
+  </body>
+</html>
