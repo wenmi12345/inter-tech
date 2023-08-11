@@ -22,11 +22,14 @@
       };
     </script>
   </head>
-  <body>
-    <nav class="flex justify-between items-center my-[50px]">
+  <body class="h-[100vh]">
+    <div class="bg-no-repeat bg-fixed bg-center bg-cover"
+    style="background-image:url(/src/img/service.bg.jpg);>
+
+    <nav class="flex justify-between items-center">
       <div class="flex items-center">
         <img
-          src="../src/img/less-icon-8-removebg-preview.png"
+          src="/src/img/less-icon-8-removebg-preview.png"
           alt="logo"
           width="50px"
           height="50px"
@@ -38,34 +41,34 @@
         <ul class="flex">
           <li>
             <a
-              href="./index.html"
-              class="mx-[20px] text-gray-400 hover:text-blue-300"
+              href="/index.html"
+              class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >Home</a
             >
           </li>
           <li>
             <a
-              href="./aboutus.html"
-              class="mx-[20px] text-gray-400 hover:text-blue-300"
+              href="/src/html-pages/aboutus.html"
+              class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >About Us</a
             >
           </li>
           <li>
             <a
-              href="../src/service.html"
-              class="mx-[20px] text-gray-400 hover:text-blue-300"
+              href="/src/html-pages/service.html"
+              class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >Service</a
             >
           </li>
           <li>
             <a
-              href="../src/features.html"
-              class="mx-[20px] text-gray-400 hover:text-blue-300"
+              href="/src/html-pages/features.html"
+              class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >Features</a
             >
           </li>
           <li>
-            <a href="#" class="mx-[20px] hover:text-blue-300 text-gray-400"
+            <a href="#" class="mx-[20px] text-yellow-50 hover:text-blue-300"
               >Contact</a
             >
           </li>
@@ -73,90 +76,66 @@
       </div>
     </nav>
 
-    <main
-      class="bg-no-repeat bg-fixed bg-center"
-      style="background-image: url(./img/communicate-tech-removebg-preview.png)"
-    >
-      <p class="text-4xl text-center my-[10px">MEET OUT TEAM</p>
-      <div class="flex justify-around">
-        <div>
-          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
-            <img
-              src="./img/maneger-inter-tech.jpg"
-              width="200px"
-              height="200px"
-            />
-            <div class="w-[200] h-[30px] text-center">
-              <p>
-                Executive <br />
-                Mr OKON ITEBI
-              </p>
-            </div>
-          </div>
+    <main class="flex justify-evenly items-center p-[50px]">
+      <div class="w-[40%]"></div>
 
-          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
-            <img src="./img/cfo-inter-tech.jpg" width="200px" height="200px" />
-            <div class="w-[200] h-[30px] text-center">
-              <p>
-                Manager <br />
-                Mr LARMAR JR
-              </p>
-            </div>
-          </div>
-
-          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
-            <img src="./img/CMO.jpg" width="200px" height="200px" />
-            <div class="w-[200] h-[30px] text-center">
-              <p>
-                Chief marketing officer <br />
-                Mr LARRY LARRY
-              </p>
-            </div>
-          </div>
-        </div>
+      <div
+        class="w-[35%] bg-slate-200 rounded-xl p-[20px] transition-all duration-1000 ease-in-out hover:border-2 hover:border-blue-300 border-dashed hover:scale-125"
+      >
+        <p class="text-4xl my-[30px]">OUR SERVICES</p>
 
         <div>
-          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
-            <img src="./img/me.jpg" width="200px" height="200px" />
-            <div class="w-[200] h-[30px] text-center">
-              <p>
-                Chief technology officer <br />
-                Miss GRACE
-              </p>
-            </div>
-          </div>
+          <ul class="text-gray-400 my-[30px] list-disc list-inside">
+            <li class="my-[10px]">
+              Improve your busness ideas, or give your organization a better one
+            </li>
+            <li class="my-[15px]">
+              connect and communicate with client all over the world
+            </li>
 
-          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
-            <img src="./img/ceo-inter-tech.jpg" width="200px" height="200px" />
-            <div class="w-[200] h-[30px] text-center">
-              <p>
-                CEO <br />
-                Mrs IZZY ELLA
-              </p>
-            </div>
-          </div>
+            <li class="my-[15px]">
+              Take Advantage of Social Media and online marketing for Your
+              Business
+            </li>
 
-          <div class="w-[200px] h-[200px] border-2 shadow-md my-[10px]">
-            <img src="./img/istockphoto-.jpg" width="200px" height="200px" />
-            <div class="w-[200] h-[30px] text-center">
-              <p>
-                Finance manager <br />
-                Mrs BASSY SOLOMON
-              </p>
-            </div>
-          </div>
+            <li class="my-[15px]">
+              Create a Professional Website for Your Business
+            </li>
+
+            <li class="my-[15px]">
+              Grow Your Business with Tech and to Save Money
+            </li>
+          </ul>
+
+          <img
+            class="rounded-lg my-[30px]"
+            src="/src/img/tech-community.jpg"
+            width="200px"
+            height="200px"
+          />
         </div>
       </div>
     </main>
 
-    <section class="bg-white py-[10%] flex justify-around items-center">
+    <section class="bg-gray-200 py-[10%] flex justify-around items-center">
       <div class="w-[50%]">
+        <p class="text-gray-400 text-lg my-[10px] leading-10">
+          If you’re looking to start a business with high earning potential,
+          you’ve probably looked into some tech business ideas. And why wouldn’t
+          you? In 2019, the estimated economic output of the technology industry
+          was $1.8 trillion, comprising over 10% of the national economy,
+          according to CompTIA. What’s more, the average successful startup exit
+          (via either acquisition or IPO) has sat at $242.9 million since 2007.
+          However, for every successful startup exit, there are hundreds if not
+          thousands of startups that have failed. So if you’re an entrepreneur
+          hoping to hit it big in the technology sector, you need to start with
+          a strong tech business idea.
+        </p>
         <img
-          title="HELLO WORLD! my name OKON, how can i help you"
           class="rounded-lg"
-          src="../src/img/gif.gif"
-          width="500px"
-          height="450px"
+          src="/src/img/tech-bus.jpg"
+          width="300px"
+          height="200px"
         />
       </div>
 
